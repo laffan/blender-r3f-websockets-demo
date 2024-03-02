@@ -2,6 +2,8 @@
 
 Working demo of rendering text strings through Blender, compressing the resulting model and sending it to a Vite/R3F project to be displayed.  The whole thing is orechestrated via a simple websockets server. 
 
+> NOTE : This was created for a project that required transcription be baked in, so if you want to skip the Whisper part entirely and just update the text files another way the project will still work fine.
+
 Works with Blender 4.0.2 on MacOS.
 
 ## Installation
@@ -36,11 +38,7 @@ whisper-stream -s 0.5 -p2 'tee -a /absolute/path/to/transcript.txt' # Internet r
 - Your blend files must be saved in **Object Mode**.
 
 
-## Debugging
-- https://gltf-viewer.donmccurdy.com/
-
 
 ## Todo
 
 - Get transcription running locally.
--  
