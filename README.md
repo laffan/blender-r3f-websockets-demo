@@ -33,7 +33,7 @@ yarn dev # `npm run dev` should also work here if you aren't using yarn.
 whisper-stream -s 0.5 -p2 'tee -a /absolute/path/to/transcript.txt' # Internet required
 ```
 
-NOTE : Site will be blank until the first update to generator/text/transcription.txt.  Changing that file (and saving it) will trigger the initial model to be created.
+**NOTE : Site will be blank until the first update to generator/text/transcription.txt.**
 
 ## Gotchyas
 
