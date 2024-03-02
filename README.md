@@ -1,6 +1,6 @@
-# R3F / Blender / Whisper Template
+# Blender / R3F / Websockets Demo
 
-Working demo of rendering text strings through Blender, compressing the resulting model and displaying it in a R3F project.  Updates to string trigger the whole process.
+Working demo of rendering text strings through Blender, compressing the resulting model and sending it to a Vite/R3F project to be displayed.  The whole thing is orechestrated via a simple websockets server. 
 
 Works with Blender 4.0.2 on MacOS.
 
