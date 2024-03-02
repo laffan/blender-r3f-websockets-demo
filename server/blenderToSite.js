@@ -53,12 +53,12 @@ function exportGLTFToSite(filename, timestamp) {
     ).toString()
   );
 
-  // // Clean up
-  // process.stdout.write(
-  //   execSync(
-  //     `cd ${PATHS.project}/${PATHS.generator.blendFiles}; rm ${filename}.gltf; rm ${filename}.bin; rm ${filename}.jsx`
-  //   ).toString()
-  // );
+  // Clean up
+  process.stdout.write(
+    execSync(
+      `cd ${PATHS.project}/${PATHS.generator.blendFiles}; rm ${filename}.gltf; rm ${filename}.bin; rm ${filename}.jsx`
+    ).toString()
+  );
 
   return timestamp;
 }
